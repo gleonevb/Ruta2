@@ -68,7 +68,7 @@ class OfferService : AccessibilityService() {
             )
             lp.gravity = Gravity.TOP
             wm?.addView(this, lp)
-            overlay = this
+            this@OfferService.overlay = this
         }
         tv.setBackgroundColor(if (v.accept) Color.parseColor("#E6138A36") else Color.parseColor("#E6C62828"))
         tv.text = body
