@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Ruta Rentable</string>
+    <string name="service_desc">Lee la oferta de viaje en la app Uber Driver y muestra si conviene aceptar o rechazar. No envía datos a ningún lado.</string>
+</resources>
