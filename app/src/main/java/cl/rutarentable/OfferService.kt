@@ -75,7 +75,7 @@ class OfferService : AccessibilityService() {
     }
 
     private fun removeOverlay() {
-        overlay?.let { try { wm?.removeView(it) } catch (_: Exception) {} }
+        overlay?.let { try { wm?.removeView(it) } catch (e: Exception) {} }
         overlay = null
     }
 
